@@ -1,0 +1,130 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    
+
+}
+.main-contain {
+    display: inline;
+    width: 80%;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Adding Style to the heading */
+.main-header {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.heading-task {
+    display: inline;
+    margin-left:  18px;
+    font-weight: bolder;
+    font-size: 60px;
+    margin-top: 30px;
+    
+}
+.heading-list {
+    display: inline;
+    font-weight: lighter;
+    color: gray;
+    font-size: 60px;
+    margin-top: 30px;
+}
+.heading-add {
+   display: inline;
+   float: right;
+   font-weight: lighter;
+   font-size: 34px;
+   margin-right: 20%;
+   margin-top: 46px;
+   color: gray;
+   text-decoration: none;
+}
+.add-list-tag {
+    color: gray;
+    text-decoration: none;
+    bottom: 30px;
+    right: 30px;
+}
+.add-list-tag1 {
+    margin-bottom: 30px;
+    display: flex;
+    color: tomato;
+    margin-top: 70%;
+    float: right;
+    
+}
+add-list-tag1:hover{
+    color:black;
+}
+
+.main-card{
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 40px;
+    
+}
+
+.parent-container {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.child-container {
+    width: 180px;
+    height: 310px;
+    border: 2px solid tomato;
+    border-radius: 10px;   
+    box-shadow: 2px 4px 3px;
+}
+.todo-heading {
+    color: rgb(252, 181, 89);
+}
+
+.headingstyle{
+    color: tomato;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.deletedtext {
+    color: red;
+}
+.location {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid yellow; */
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+    font-size: 25px;
+    
+}
+material-icons:hover
+.anchors {
+    text-decoration: none;
+    margin: 2px;
+    color: tomato;
+}
